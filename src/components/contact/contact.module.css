@@ -1,0 +1,117 @@
+.contactHeading h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: crimson;
+    text-transform: capitalize;
+}
+
+.background{
+   
+    background:#FFB6C1;
+    padding:2rem 0px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.contactField{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 0 auto;
+
+}
+.contactField input{
+    height: 30px;
+    margin: 8px 0px;
+    border: transparent;
+    border-radius: 5px;
+   
+}
+.contactField .message{
+    height: 70px;
+}
+.contactField button{
+    height: 40px;
+    width: 150px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    background: crimson;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+.contactField button:hover{
+    background: white;
+    color: crimson;
+}
+.follow h4{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin:15px 10%;
+    color: crimson;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+   color: navy;
+}
+@media(min-width:768px){
+    .contactHeading h1{
+        font-size: 3rem;
+    }
+    .contactField label{
+        font-size: 1.1rem;
+    }
+    .contactField input{
+        height: 40px;
+    }
+    .contactField button{
+        width: 200px;
+        font-size: 1.5rem;
+    }
+    .follow h4{
+        font-size: 1.7rem;
+        margin-top: 30px;
+    }
+    .icons{
+        font-size: 3.5rem;
+    }
+}
+@media(min-width:1024px){
+    .background{
+        width: 60%;
+    }
+    .contactField{
+        width: 50%;
+    }
+    .contactHeading h1{
+        font-size: 5rem;
+    }
+    .contactField label{
+        font-size: 1.1rem;
+    }
+    .contactField input{
+        height: 40px;
+    }
+    .contactField button{
+        width: 200px;
+        font-size: 1.5rem;
+    }
+    .follow h4{
+        font-size: 2.5rem;
+        margin-top: 30px;
+        margin-left: 20%;
+    }
+    .icons{
+        font-size: 4rem;
+        margin-left: 10%;
+    }
+}

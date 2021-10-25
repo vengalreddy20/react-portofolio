@@ -1,0 +1,55 @@
+body{
+    background: #001933;
+
+}
+.aboutContainer{
+    margin: 0 auto;
+    background: #FFCCCC;
+    width: 90%;
+    margin-top: 10%;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+}
+.aboutContainer h1{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: crimson;
+    padding: 2rem 0px;
+    text-align: center;
+}
+.aboutContainer p{
+    font-size: 1rem;
+    padding-left: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    line-height: 1.5rem;
+
+}
+@media(min-width:768px){
+    .aboutContainer h1{
+        font-size: 3rem;
+    }
+    .aboutContainer p{
+        font-size: 1.5rem;
+        max-width: 600px;
+        line-height: 2rem;
+    }
+    .aboutContainer{
+        width: 70%;
+    }
+    
+}
+@media(min-width:1024px){
+    .aboutContainer h1{
+        font-size: 4.5rem;
+    }
+    .aboutContainer p{
+        font-size: 2rem;
+        max-width: 800px;
+        line-height: 2.5rem;
+    }
+    .aboutContainer{
+        width: 70%;
+    }
+    
+}
